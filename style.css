@@ -111,12 +111,10 @@ body {
     text-align: right;
 }
 
-/* setting dot to the left if the card is odd */
 .card:nth-child(odd)>.info>.title::before {
     left: -45px;
 }
 
-/* setting dot to the right if the card is odd */
 .card:nth-child(even)>.info>.title::before {
     right: -45px;
 }
